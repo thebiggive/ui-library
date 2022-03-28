@@ -1,3 +1,3 @@
-import { App } from './app.js';
+import { UiLibrary } from './UiLibrary.js';
 
-customElements.define('ui-library', App);
+customElements.define('ui-library', UiLibrary);
