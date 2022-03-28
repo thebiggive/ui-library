@@ -1,6 +1,6 @@
 import { html } from 'lit-html';
 
-import { Button } from './Button';
+import { Button } from '../components/Button/Button';
 import './header.css';
 
 export interface HeaderProps {

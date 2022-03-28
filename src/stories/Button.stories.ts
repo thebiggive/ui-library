@@ -1,5 +1,5 @@
 import { Story, Meta } from '@storybook/web-components';
-import { Button, ButtonProps } from './Button';
+import { Button, ButtonProps } from '../components/Button/Button';
 
 // More on default export: https://storybook.js.org/docs/web-components/writing-stories/introduction#default-export
 export default {
