@@ -16,7 +16,7 @@ export default {
 } as Meta;
 
 // More on component templates: https://storybook.js.org/docs/web-components/writing-stories/introduction#using-args
-const Template: Story<Partial<ButtonProps>> = (args) => Button(args);
+const Template: Story<ButtonProps> = (args) => Button(args);
 
 export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/web-components/writing-stories/args

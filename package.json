@@ -73,11 +73,14 @@
       "import/no-unresolved": "off",
       "import/extensions": [
         "error",
-        "always",
+        "ignorePackages",
         {
-          "ignorePackages": true
+          "js": "never",
+          "jsx": "never",
+          "ts": "never",
+          "tsx": "never"
         }
-      ]
+     ]
     }
   },
   "prettier": {
