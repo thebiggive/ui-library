@@ -1,5 +1,5 @@
 import { html } from 'lit-html';
-import { Header } from '../components/Header/Header';
+import { Header } from '../Header/Header';
 import './page.css';
 
 export interface PageProps {

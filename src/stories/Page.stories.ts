@@ -1,5 +1,5 @@
 import { Story, Meta } from '@storybook/web-components';
-import { Page, PageProps } from './Page';
+import { Page, PageProps } from '../components/Page/Page';
 import * as HeaderStories from './Header.stories';
 
 export default {
