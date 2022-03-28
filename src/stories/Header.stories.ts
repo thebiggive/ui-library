@@ -1,5 +1,5 @@
 import { Story, Meta } from '@storybook/web-components';
-import { Header, HeaderProps } from './Header';
+import { Header, HeaderProps } from '../components/Header/Header';
 
 export default {
   title: 'Example/Header',
